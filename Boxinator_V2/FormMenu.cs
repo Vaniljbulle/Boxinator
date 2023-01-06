@@ -1,4 +1,5 @@
-﻿using Boxinator_V2.Usercontrol;
+﻿// using Boxinator_V2.Attribute;
+using Boxinator_V2.Usercontrol;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -87,5 +88,43 @@ namespace Boxinator_V2
             newProject np = new newProject();
             addUserControl(np);
         }
-    }
+		
+		//  private void addUserControl_1(SAttri Attribute)
+        // {
+        //     // Attribute.name = DockStyle.Fill;
+		// 	// Attribute.name = .ToString();
+        //     panelMainWindow.Controls.Clear();
+        //     // panelMainWindow.Controls.Add(Attribute);
+        //     Attribute.ToString();
+        // }
+		
+		// private void addUserContro_l(UserControl userControl)
+        // {
+        //     userControl.Dock = DockStyle.Fill;
+        //     panelMainWindow.Controls.Clear();
+        //     panelMainWindow.Controls.Add(userControl);
+        //     userControl.BringToFront();
+        // }
+		private void categoryButton_Click(object sender, EventArgs e)
+        {
+			
+			highlightButton(categoryButton);
+            var SA = new SAttri();
+			//SA.Setname(SA.Getname().ToString());
+            // addUserControl();
+			
+            // highlightButton(categoryButton);
+            // SAttri SA = new SAttri();
+			
+			// SA.Setname(SA.Getname().ToString());
+			// var sa = SA.name;
+			// categoryButton.(SA.Setname);
+			// CategoryAttribute.Add(SA);
+			
+			// highlightButton(categoryButton);
+            // home hm = new home();
+            // addUserControl(hm);
+        }
+
+	}
 }

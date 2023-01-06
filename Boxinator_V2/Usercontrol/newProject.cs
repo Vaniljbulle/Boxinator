@@ -46,5 +46,20 @@ namespace Boxinator_V2.Usercontrol
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SAttri SA = new SAttri();
+            SA.Namee = comboBox1.Text;
+            /*this.comboBox1.Text = ;*/
+            //this.comboBox1. .Items.Add(SA.Namee);
+            this.comboBox1.Items.Add(SA.Namee);
+            
+        }
+
+        private void comboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+         
+        }
     }
 }

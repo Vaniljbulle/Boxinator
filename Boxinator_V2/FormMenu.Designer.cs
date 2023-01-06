@@ -1,4 +1,6 @@
-﻿namespace Boxinator_V2
+﻿using System;
+
+namespace Boxinator_V2
 {
     partial class FormMenu
     {
@@ -56,8 +58,9 @@
             this.panelMenu.Controls.Add(this.panel1);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(180, 611);
+            this.panelMenu.Size = new System.Drawing.Size(270, 940);
             this.panelMenu.TabIndex = 0;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
@@ -74,10 +77,11 @@
             this.docsButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.docsButton.Image = ((System.Drawing.Image)(resources.GetObject("docsButton.Image")));
             this.docsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.docsButton.Location = new System.Drawing.Point(0, 307);
+            this.docsButton.Location = new System.Drawing.Point(0, 473);
+            this.docsButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.docsButton.Name = "docsButton";
-            this.docsButton.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.docsButton.Size = new System.Drawing.Size(180, 50);
+            this.docsButton.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.docsButton.Size = new System.Drawing.Size(270, 77);
             this.docsButton.TabIndex = 6;
             this.docsButton.Text = " Documentation";
             this.docsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -96,14 +100,16 @@
             this.categoryButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.categoryButton.Image = ((System.Drawing.Image)(resources.GetObject("categoryButton.Image")));
             this.categoryButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.categoryButton.Location = new System.Drawing.Point(0, 257);
+            this.categoryButton.Location = new System.Drawing.Point(0, 396);
+            this.categoryButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.categoryButton.Name = "categoryButton";
-            this.categoryButton.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.categoryButton.Size = new System.Drawing.Size(180, 50);
+            this.categoryButton.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.categoryButton.Size = new System.Drawing.Size(270, 77);
             this.categoryButton.TabIndex = 5;
             this.categoryButton.Text = " Categories";
             this.categoryButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.categoryButton.UseVisualStyleBackColor = true;
+            //this.categoryButton.Click += new System.EventHandler(this.categoryButton);
             // 
             // saveButton
             // 
@@ -118,10 +124,11 @@
             this.saveButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.saveButton.Image = ((System.Drawing.Image)(resources.GetObject("saveButton.Image")));
             this.saveButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.saveButton.Location = new System.Drawing.Point(0, 207);
+            this.saveButton.Location = new System.Drawing.Point(0, 319);
+            this.saveButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.saveButton.Name = "saveButton";
-            this.saveButton.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.saveButton.Size = new System.Drawing.Size(180, 50);
+            this.saveButton.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.saveButton.Size = new System.Drawing.Size(270, 77);
             this.saveButton.TabIndex = 4;
             this.saveButton.Text = " Save";
             this.saveButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -141,10 +148,11 @@
             this.openButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.openButton.Image = ((System.Drawing.Image)(resources.GetObject("openButton.Image")));
             this.openButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.openButton.Location = new System.Drawing.Point(0, 157);
+            this.openButton.Location = new System.Drawing.Point(0, 242);
+            this.openButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.openButton.Name = "openButton";
-            this.openButton.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.openButton.Size = new System.Drawing.Size(180, 50);
+            this.openButton.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.openButton.Size = new System.Drawing.Size(270, 77);
             this.openButton.TabIndex = 3;
             this.openButton.Text = " Open";
             this.openButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -165,10 +173,11 @@
             this.newButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.newButton.Image = ((System.Drawing.Image)(resources.GetObject("newButton.Image")));
             this.newButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.newButton.Location = new System.Drawing.Point(0, 107);
+            this.newButton.Location = new System.Drawing.Point(0, 165);
+            this.newButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.newButton.Name = "newButton";
-            this.newButton.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.newButton.Size = new System.Drawing.Size(180, 50);
+            this.newButton.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.newButton.Size = new System.Drawing.Size(270, 77);
             this.newButton.TabIndex = 2;
             this.newButton.Text = " New";
             this.newButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -189,10 +198,11 @@
             this.dashboardButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.dashboardButton.Image = ((System.Drawing.Image)(resources.GetObject("dashboardButton.Image")));
             this.dashboardButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.dashboardButton.Location = new System.Drawing.Point(0, 57);
+            this.dashboardButton.Location = new System.Drawing.Point(0, 88);
+            this.dashboardButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dashboardButton.Name = "dashboardButton";
-            this.dashboardButton.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.dashboardButton.Size = new System.Drawing.Size(180, 50);
+            this.dashboardButton.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.dashboardButton.Size = new System.Drawing.Size(270, 77);
             this.dashboardButton.TabIndex = 1;
             this.dashboardButton.Text = " Dashboard";
             this.dashboardButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -205,16 +215,18 @@
             this.panel1.Controls.Add(this.Logotype);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(180, 57);
+            this.panel1.Size = new System.Drawing.Size(270, 88);
             this.panel1.TabIndex = 0;
             // 
             // Logotype
             // 
             this.Logotype.Image = ((System.Drawing.Image)(resources.GetObject("Logotype.Image")));
-            this.Logotype.Location = new System.Drawing.Point(12, 12);
+            this.Logotype.Location = new System.Drawing.Point(18, 18);
+            this.Logotype.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Logotype.Name = "Logotype";
-            this.Logotype.Size = new System.Drawing.Size(156, 39);
+            this.Logotype.Size = new System.Drawing.Size(234, 60);
             this.Logotype.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Logotype.TabIndex = 0;
             this.Logotype.TabStop = false;
@@ -224,19 +236,21 @@
             // 
             this.panelMainWindow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
             this.panelMainWindow.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMainWindow.Location = new System.Drawing.Point(180, 0);
+            this.panelMainWindow.Location = new System.Drawing.Point(270, 0);
+            this.panelMainWindow.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelMainWindow.Name = "panelMainWindow";
-            this.panelMainWindow.Size = new System.Drawing.Size(814, 611);
+            this.panelMainWindow.Size = new System.Drawing.Size(1221, 940);
             this.panelMainWindow.TabIndex = 1;
             this.panelMainWindow.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMainWindow_Paint);
             // 
             // FormMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(994, 611);
+            this.ClientSize = new System.Drawing.Size(1491, 940);
             this.Controls.Add(this.panelMainWindow);
             this.Controls.Add(this.panelMenu);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormMenu";
             this.Text = "Form1";
             this.panelMenu.ResumeLayout(false);
