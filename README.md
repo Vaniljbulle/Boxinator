@@ -7,7 +7,7 @@ Boxinator is a software that supports annoation and 2d data labeling. Boxinator 
 ![image](https://user-images.githubusercontent.com/67705679/212743579-fd22d949-e598-46da-b6c7-ef2aadbc1457.png)
 
 ## Getting started
-To start using Boxinator, you will need to download the exe file on your computer (Windows). Once installed, you can open the software and begin creating your first annoation project in the "New" tab. Here you fill in the following boxes and chose between video mode or image mode based on your situation. The category file is of type .txt and each row in this file is a new category e.g. car.
+To start using Boxinator, you will need to download the exe file on your computer (Windows). Once installed, you can open the software and begin creating your first annoation project in the "New" tab. Here you fill in the following boxes and chose between Video mode or Image mode based on your situation. The category file is of type .txt and each row in this file is a new category e.g. car.
 
 ![image](https://user-images.githubusercontent.com/67705679/212739592-27922705-eda2-4d0a-8896-4c62195c8b68.png)
 ## Annotation
