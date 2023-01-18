@@ -29,4 +29,4 @@ To start using Boxinator, you will need to download the exe file on your compute
 ![ghg](https://user-images.githubusercontent.com/95533040/212937892-8ad07571-2b18-40ed-af27-13aad009641f.gif)
 
 ## Conclusion
-Boxinator is a software that makes it easy to annotate and label 2D data. With its integrated image sequence converter and support for importing categories, it is a versatile tool for any 2D annotation project.
+Boxinator is a software that makes it easy to annotate and label 2D data. With its integrated image sequence converter and support for importing categories, attributes it is a versatile tool for any 2D annotation project.
